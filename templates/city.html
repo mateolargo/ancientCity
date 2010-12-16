@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>{{city.name}} - 21H.405j</title>
+</head>
+<body>
+<h1>{{city.name}}</h1>
+
+<h2>Regions</h2>
+{% for r in regions %}
+<h3>{{r.name}}</h3>
+  {% for m in r.monument_set.all %}
+    <h4>{{m.name}}</h4>
+  {% endfor %}
+{% endfor %}
+
+<h2>Image Sources</h2>
+{% for s in imageSources %}
+<h3>{{s.title}}</h3>
+{% endfor %}
+
+<h2>Text Sources</h2>
+{% for s in textSources %}
+<h3>{{s.title}}</h3>
+{% endfor %}
+
+<h2>Link Sources</h2>
+{% for s in linkSources %}
+<h3>{{s.title}}</h3>
+{% endfor %}
+
+</body>
+</html>
