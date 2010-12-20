@@ -1,11 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
+  <title>{{monument.name}}</title>
+  <link rel="stylesheet" type="text/css" href="/media/reset-min.css">
+  <style type="text/css">
+    html { height:100%; }
+    body { height:100%; color: #333333; font-family:verdana; padding-top:10px; }
+    #Wrapper { margin:0 auto; width:950px; min-height:100%; background-color:#EEE; }
+    #Header { background-color:#4060A0; padding:10px; }
+    #Header h1 { color:white; font-size:30px; font-weight:bold; }
+    #Navigation { font-size:16px; padding:5px 10px; background-color:#FFF; }
+    #Navigation a:link, #Navigation a:active, #Navigation a:visited { color: #4060A0; }
+
+    #LeftColumn { float:left; width:700px; padding:10px; }
+    #RightColumn { }
+
+    .main-img { max-height:400px; max-width:500px; }
+    #Description { padding:8px 0; }
+
+    #Images { }
+    #Text { }
+
+    .thumb-wrapper { float:left; font-size:12px; height:160px; text-align:center; width:215px; }
+    .thumb-wrapper a { cursor:pointer; }
+  </style>
 </head>
 <body>
-<h1>{{monument.name}}</h1>
-{% for s in sources %}
-<h3>{{s.title}}</h3>
-<h5>{{s.type}}, {{s.url}}, {{s.originalText}}, {{s.englishText}}</h5>
-{% endfor %}
+  <div id="Wrapper">
+    <div id="Header">
+      <h1>{{monument.name}}</h1>
+    </div>
+    <div id="Navigation">
+      <a href="/{{base_monument.id}}">{{base_monument.name}}</a>
+      {% for m in breadcrumbs %} &rsaquo; <a href="/{{base_monument.id}}">{{m.name}}</a>{% endfor %}
+    </div>
+    <div id="LeftColumn">
+      <img src="/media/sources/{{monument.main_source}}" class="main-img"/>
+      
+      <div id="Description">{{monument.description}}</div>
+
+      <div id="Images">
+	{% for s in image_sources %}
+	<div class="thumb-wrapper">
+	  <a>
+	    <img title="Click to enlarge" src="/media/sources/{{s.thumbnail_url}}"/><br>
+	    <span>{{s.title}}</span>
+	  </a>
+	</div>
+	{% endfor %}
+	<div style="clear:both;"></div>
+      </div>
+
+      {% ifnotequal text_source_count 0 %}
+      <div id="Text">
+	<div>Textual References</div>
+	{% for s in text_sources %}
+	<a class="text-link" href="#">{{s.title}}</a><br>
+	{% endfor %}
+
+	{% for s in link_sources %}
+	<a class="text-link" href="{{s.url}}">{{s.title}}</a><br>
+	{% endfor %}
+      </div>
+      {% endifnotequal %}
+    </div>
+    <div id="RightColumn">
+      <h2>Within this location:</h2>
+      <ul>
+      {% for m in children %}
+        <li>{{m.name}}</li>
+      {% endfor %}
+      </ul>
+    </div>
+    <div style="clear:both;"></div>
+  </div>
 </body>
 </html>

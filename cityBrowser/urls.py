@@ -11,4 +11,5 @@ urlpatterns = patterns('django.views.generic.simple',
 urlpatterns += patterns('ancientCity.cityBrowser',
     (r'^$', 'views.index'),
     (r'^rome', 'views.rome'),
+    (r'^(?P<mon_id>\d+)$', 'views.monument'),
 )
