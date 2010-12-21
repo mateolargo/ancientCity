@@ -23,7 +23,17 @@
 
     .thumb-wrapper { float:left; font-size:12px; height:160px; text-align:center; width:215px; }
     .thumb-wrapper a { cursor:pointer; }
+
+    .text-original { float:left; border-right: 1px solid #333333; padding:5px; width:240px; }
+    .text-english { float:left; width:239px; padding:5px; }
   </style>
+
+  <script type="text/javascript" src="/media/highslide/highslide.js"></script>
+  <link rel="stylesheet" type="text/css" href="/media/highslide/highslide.css" />
+  <!--[if lt IE 7]>
+  <link rel="stylesheet" type="text/css" href="/media/highslide/highslide-ie6.css" />
+  <![endif]-->
+
 </head>
 <body>
   <div id="Wrapper">
@@ -42,10 +52,11 @@
       <div id="Images">
 	{% for s in image_sources %}
 	<div class="thumb-wrapper">
-	  <a>
+	  <a href="/media/sources/{{s.url}}" class="highslide" onclick="return hs.expand(this)">
 	    <img title="Click to enlarge" src="/media/sources/{{s.thumbnail_url}}"/><br>
 	    <span>{{s.title}}</span>
 	  </a>
+	  <div class="highslide-caption">{{s.title}}</div>
 	</div>
 	{% endfor %}
 	<div style="clear:both;"></div>
@@ -55,7 +66,12 @@
       <div id="Text">
 	<div>Textual References</div>
 	{% for s in text_sources %}
-	<a class="text-link" href="#">{{s.title}}</a><br>
+	<a href="#" onclick="return hs.htmlExpand(this, {headingText:'{{s.title}}',width:500})">{{s.title}}</a><br>
+	<div class="highslide-maincontent" style="width:auto;">
+	  <div class="text-original">{{s.original_text|linebreaksbr}}</div>
+	  <div class="text-english">{{s.english_text|linebreaksbr}}</div>
+	  <div style="clear:both;"></div>
+	</div>
 	{% endfor %}
 
 	{% for s in link_sources %}
@@ -74,5 +90,19 @@
     </div>
     <div style="clear:both;"></div>
   </div>
+
+  <script type="text/javascript">
+    hs.registerOverlay({
+      html: '<div class="closebutton" onclick="return hs.close(this)" title="Close"></div>',
+      position: 'top right',
+      fade: 2 // fading the semi-transparent overlay looks bad in IE
+    });
+
+    hs.graphicsDir = '/media/highslide/graphics/';
+    hs.showCredits = false;
+    //hs.wrapperClassName = 'borderless';
+    hs.wrapperClassName = 'draggable-header';
+
+  </script>
 </body>
 </html>
