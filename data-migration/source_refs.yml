@@ -1,0 +1,2507 @@
+%YAML 1.1
+---
+-
+  mon_id: 0
+  source_id: 0
+-
+  mon_id: 1
+  source_id: 4
+-
+  mon_id: 1
+  source_id: 174
+-
+  mon_id: 1
+  source_id: 187
+-
+  mon_id: 1
+  source_id: 194
+-
+  mon_id: 1
+  source_id: 195
+-
+  mon_id: 1
+  source_id: 196
+-
+  mon_id: 1
+  source_id: 197
+-
+  mon_id: 1
+  source_id: 198
+-
+  mon_id: 1
+  source_id: 199
+-
+  mon_id: 1
+  source_id: 200
+-
+  mon_id: 1
+  source_id: 201
+-
+  mon_id: 1
+  source_id: 202
+-
+  mon_id: 1
+  source_id: 203
+-
+  mon_id: 1
+  source_id: 204
+-
+  mon_id: 1
+  source_id: 205
+-
+  mon_id: 1
+  source_id: 206
+-
+  mon_id: 1
+  source_id: 207
+-
+  mon_id: 1
+  source_id: 208
+-
+  mon_id: 1
+  source_id: 209
+-
+  mon_id: 1
+  source_id: 210
+-
+  mon_id: 1
+  source_id: 212
+-
+  mon_id: 1
+  source_id: 213
+-
+  mon_id: 1
+  source_id: 214
+-
+  mon_id: 1
+  source_id: 215
+-
+  mon_id: 2
+  source_id: 39
+-
+  mon_id: 2
+  source_id: 40
+-
+  mon_id: 2
+  source_id: 41
+-
+  mon_id: 2
+  source_id: 45
+-
+  mon_id: 2
+  source_id: 46
+-
+  mon_id: 2
+  source_id: 47
+-
+  mon_id: 2
+  source_id: 119
+-
+  mon_id: 2
+  source_id: 122
+-
+  mon_id: 3
+  source_id: 1
+-
+  mon_id: 3
+  source_id: 2
+-
+  mon_id: 3
+  source_id: 5
+-
+  mon_id: 3
+  source_id: 15
+-
+  mon_id: 3
+  source_id: 16
+-
+  mon_id: 3
+  source_id: 17
+-
+  mon_id: 3
+  source_id: 19
+-
+  mon_id: 3
+  source_id: 20
+-
+  mon_id: 3
+  source_id: 21
+-
+  mon_id: 3
+  source_id: 22
+-
+  mon_id: 3
+  source_id: 23
+-
+  mon_id: 3
+  source_id: 24
+-
+  mon_id: 3
+  source_id: 25
+-
+  mon_id: 3
+  source_id: 26
+-
+  mon_id: 3
+  source_id: 27
+-
+  mon_id: 3
+  source_id: 30
+-
+  mon_id: 3
+  source_id: 37
+-
+  mon_id: 3
+  source_id: 38
+-
+  mon_id: 3
+  source_id: 285
+-
+  mon_id: 3
+  source_id: 286
+-
+  mon_id: 3
+  source_id: 477
+-
+  mon_id: 3
+  source_id: 478
+-
+  mon_id: 3
+  source_id: 479
+-
+  mon_id: 3
+  source_id: 480
+-
+  mon_id: 3
+  source_id: 481
+-
+  mon_id: 4
+  source_id: 15
+-
+  mon_id: 4
+  source_id: 276
+-
+  mon_id: 4
+  source_id: 277
+-
+  mon_id: 4
+  source_id: 331
+-
+  mon_id: 5
+  source_id: 1
+-
+  mon_id: 5
+  source_id: 2
+-
+  mon_id: 5
+  source_id: 8
+-
+  mon_id: 5
+  source_id: 9
+-
+  mon_id: 5
+  source_id: 10
+-
+  mon_id: 5
+  source_id: 16
+-
+  mon_id: 5
+  source_id: 21
+-
+  mon_id: 5
+  source_id: 22
+-
+  mon_id: 5
+  source_id: 27
+-
+  mon_id: 5
+  source_id: 28
+-
+  mon_id: 6
+  source_id: 11
+-
+  mon_id: 6
+  source_id: 12
+-
+  mon_id: 6
+  source_id: 13
+-
+  mon_id: 6
+  source_id: 14
+-
+  mon_id: 6
+  source_id: 27
+-
+  mon_id: 6
+  source_id: 29
+-
+  mon_id: 6
+  source_id: 31
+-
+  mon_id: 6
+  source_id: 32
+-
+  mon_id: 6
+  source_id: 33
+-
+  mon_id: 6
+  source_id: 34
+-
+  mon_id: 6
+  source_id: 35
+-
+  mon_id: 7
+  source_id: 45
+-
+  mon_id: 7
+  source_id: 46
+-
+  mon_id: 7
+  source_id: 47
+-
+  mon_id: 7
+  source_id: 48
+-
+  mon_id: 7
+  source_id: 49
+-
+  mon_id: 7
+  source_id: 352
+-
+  mon_id: 8
+  source_id: 41
+-
+  mon_id: 8
+  source_id: 42
+-
+  mon_id: 8
+  source_id: 43
+-
+  mon_id: 8
+  source_id: 101
+-
+  mon_id: 8
+  source_id: 102
+-
+  mon_id: 8
+  source_id: 103
+-
+  mon_id: 8
+  source_id: 110
+-
+  mon_id: 8
+  source_id: 116
+-
+  mon_id: 8
+  source_id: 117
+-
+  mon_id: 8
+  source_id: 120
+-
+  mon_id: 8
+  source_id: 121
+-
+  mon_id: 8
+  source_id: 122
+-
+  mon_id: 8
+  source_id: 125
+-
+  mon_id: 8
+  source_id: 126
+-
+  mon_id: 8
+  source_id: 127
+-
+  mon_id: 10
+  source_id: 51
+-
+  mon_id: 10
+  source_id: 52
+-
+  mon_id: 10
+  source_id: 97
+-
+  mon_id: 10
+  source_id: 98
+-
+  mon_id: 11
+  source_id: 53
+-
+  mon_id: 11
+  source_id: 78
+-
+  mon_id: 12
+  source_id: 50
+-
+  mon_id: 12
+  source_id: 79
+-
+  mon_id: 12
+  source_id: 80
+-
+  mon_id: 12
+  source_id: 81
+-
+  mon_id: 12
+  source_id: 82
+-
+  mon_id: 12
+  source_id: 83
+-
+  mon_id: 12
+  source_id: 84
+-
+  mon_id: 12
+  source_id: 85
+-
+  mon_id: 12
+  source_id: 86
+-
+  mon_id: 12
+  source_id: 87
+-
+  mon_id: 12
+  source_id: 88
+-
+  mon_id: 13
+  source_id: 93
+-
+  mon_id: 13
+  source_id: 94
+-
+  mon_id: 13
+  source_id: 95
+-
+  mon_id: 13
+  source_id: 96
+-
+  mon_id: 14
+  source_id: 57
+-
+  mon_id: 14
+  source_id: 58
+-
+  mon_id: 14
+  source_id: 547
+-
+  mon_id: 14
+  source_id: 548
+-
+  mon_id: 14
+  source_id: 549
+-
+  mon_id: 14
+  source_id: 550
+-
+  mon_id: 14
+  source_id: 551
+-
+  mon_id: 14
+  source_id: 552
+-
+  mon_id: 15
+  source_id: 59
+-
+  mon_id: 15
+  source_id: 60
+-
+  mon_id: 15
+  source_id: 61
+-
+  mon_id: 15
+  source_id: 62
+-
+  mon_id: 15
+  source_id: 63
+-
+  mon_id: 15
+  source_id: 64
+-
+  mon_id: 15
+  source_id: 65
+-
+  mon_id: 15
+  source_id: 66
+-
+  mon_id: 15
+  source_id: 67
+-
+  mon_id: 15
+  source_id: 68
+-
+  mon_id: 15
+  source_id: 69
+-
+  mon_id: 15
+  source_id: 333
+-
+  mon_id: 15
+  source_id: 334
+-
+  mon_id: 15
+  source_id: 335
+-
+  mon_id: 15
+  source_id: 336
+-
+  mon_id: 15
+  source_id: 337
+-
+  mon_id: 15
+  source_id: 338
+-
+  mon_id: 15
+  source_id: 339
+-
+  mon_id: 15
+  source_id: 340
+-
+  mon_id: 15
+  source_id: 341
+-
+  mon_id: 15
+  source_id: 342
+-
+  mon_id: 15
+  source_id: 343
+-
+  mon_id: 15
+  source_id: 344
+-
+  mon_id: 15
+  source_id: 345
+-
+  mon_id: 15
+  source_id: 346
+-
+  mon_id: 15
+  source_id: 347
+-
+  mon_id: 15
+  source_id: 348
+-
+  mon_id: 15
+  source_id: 349
+-
+  mon_id: 15
+  source_id: 350
+-
+  mon_id: 15
+  source_id: 670
+-
+  mon_id: 15
+  source_id: 671
+-
+  mon_id: 15
+  source_id: 672
+-
+  mon_id: 15
+  source_id: 673
+-
+  mon_id: 15
+  source_id: 674
+-
+  mon_id: 15
+  source_id: 675
+-
+  mon_id: 15
+  source_id: 676
+-
+  mon_id: 16
+  source_id: 72
+-
+  mon_id: 16
+  source_id: 73
+-
+  mon_id: 17
+  source_id: 74
+-
+  mon_id: 18
+  source_id: 75
+-
+  mon_id: 19
+  source_id: 44
+-
+  mon_id: 19
+  source_id: 111
+-
+  mon_id: 19
+  source_id: 112
+-
+  mon_id: 19
+  source_id: 133
+-
+  mon_id: 20
+  source_id: 107
+-
+  mon_id: 20
+  source_id: 108
+-
+  mon_id: 20
+  source_id: 109
+-
+  mon_id: 20
+  source_id: 131
+-
+  mon_id: 20
+  source_id: 132
+-
+  mon_id: 21
+  source_id: 105
+-
+  mon_id: 21
+  source_id: 106
+-
+  mon_id: 21
+  source_id: 129
+-
+  mon_id: 21
+  source_id: 803
+-
+  mon_id: 21
+  source_id: 805
+-
+  mon_id: 21
+  source_id: 806
+-
+  mon_id: 21
+  source_id: 807
+-
+  mon_id: 21
+  source_id: 808
+-
+  mon_id: 21
+  source_id: 809
+-
+  mon_id: 21
+  source_id: 810
+-
+  mon_id: 21
+  source_id: 811
+-
+  mon_id: 21
+  source_id: 812
+-
+  mon_id: 21
+  source_id: 813
+-
+  mon_id: 21
+  source_id: 814
+-
+  mon_id: 21
+  source_id: 815
+-
+  mon_id: 21
+  source_id: 827
+-
+  mon_id: 21
+  source_id: 828
+-
+  mon_id: 21
+  source_id: 829
+-
+  mon_id: 21
+  source_id: 830
+-
+  mon_id: 21
+  source_id: 831
+-
+  mon_id: 22
+  source_id: 100
+-
+  mon_id: 22
+  source_id: 114
+-
+  mon_id: 22
+  source_id: 115
+-
+  mon_id: 22
+  source_id: 128
+-
+  mon_id: 22
+  source_id: 134
+-
+  mon_id: 22
+  source_id: 135
+-
+  mon_id: 23
+  source_id: 100
+-
+  mon_id: 23
+  source_id: 104
+-
+  mon_id: 23
+  source_id: 123
+-
+  mon_id: 23
+  source_id: 124
+-
+  mon_id: 23
+  source_id: 130
+-
+  mon_id: 23
+  source_id: 821
+-
+  mon_id: 23
+  source_id: 822
+-
+  mon_id: 23
+  source_id: 823
+-
+  mon_id: 23
+  source_id: 824
+-
+  mon_id: 23
+  source_id: 825
+-
+  mon_id: 23
+  source_id: 826
+-
+  mon_id: 23
+  source_id: 832
+-
+  mon_id: 23
+  source_id: 833
+-
+  mon_id: 23
+  source_id: 834
+-
+  mon_id: 23
+  source_id: 835
+-
+  mon_id: 23
+  source_id: 836
+-
+  mon_id: 23
+  source_id: 837
+-
+  mon_id: 23
+  source_id: 838
+-
+  mon_id: 23
+  source_id: 839
+-
+  mon_id: 23
+  source_id: 840
+-
+  mon_id: 23
+  source_id: 841
+-
+  mon_id: 23
+  source_id: 842
+-
+  mon_id: 23
+  source_id: 843
+-
+  mon_id: 23
+  source_id: 844
+-
+  mon_id: 23
+  source_id: 845
+-
+  mon_id: 23
+  source_id: 846
+-
+  mon_id: 23
+  source_id: 847
+-
+  mon_id: 23
+  source_id: 848
+-
+  mon_id: 23
+  source_id: 849
+-
+  mon_id: 24
+  source_id: 137
+-
+  mon_id: 24
+  source_id: 138
+-
+  mon_id: 24
+  source_id: 139
+-
+  mon_id: 24
+  source_id: 140
+-
+  mon_id: 24
+  source_id: 141
+-
+  mon_id: 24
+  source_id: 142
+-
+  mon_id: 24
+  source_id: 143
+-
+  mon_id: 24
+  source_id: 145
+-
+  mon_id: 24
+  source_id: 146
+-
+  mon_id: 24
+  source_id: 147
+-
+  mon_id: 25
+  source_id: 155
+-
+  mon_id: 25
+  source_id: 158
+-
+  mon_id: 25
+  source_id: 159
+-
+  mon_id: 25
+  source_id: 162
+-
+  mon_id: 25
+  source_id: 163
+-
+  mon_id: 25
+  source_id: 164
+-
+  mon_id: 26
+  source_id: 148
+-
+  mon_id: 26
+  source_id: 149
+-
+  mon_id: 26
+  source_id: 150
+-
+  mon_id: 26
+  source_id: 151
+-
+  mon_id: 26
+  source_id: 152
+-
+  mon_id: 26
+  source_id: 153
+-
+  mon_id: 26
+  source_id: 154
+-
+  mon_id: 26
+  source_id: 155
+-
+  mon_id: 26
+  source_id: 156
+-
+  mon_id: 26
+  source_id: 157
+-
+  mon_id: 26
+  source_id: 158
+-
+  mon_id: 26
+  source_id: 159
+-
+  mon_id: 26
+  source_id: 160
+-
+  mon_id: 26
+  source_id: 165
+-
+  mon_id: 26
+  source_id: 166
+-
+  mon_id: 26
+  source_id: 167
+-
+  mon_id: 26
+  source_id: 168
+-
+  mon_id: 40
+  source_id: 173
+-
+  mon_id: 40
+  source_id: 226
+-
+  mon_id: 40
+  source_id: 410
+-
+  mon_id: 40
+  source_id: 411
+-
+  mon_id: 40
+  source_id: 412
+-
+  mon_id: 40
+  source_id: 413
+-
+  mon_id: 40
+  source_id: 414
+-
+  mon_id: 40
+  source_id: 415
+-
+  mon_id: 40
+  source_id: 416
+-
+  mon_id: 40
+  source_id: 417
+-
+  mon_id: 40
+  source_id: 418
+-
+  mon_id: 41
+  source_id: 175
+-
+  mon_id: 41
+  source_id: 176
+-
+  mon_id: 41
+  source_id: 655
+-
+  mon_id: 41
+  source_id: 656
+-
+  mon_id: 41
+  source_id: 657
+-
+  mon_id: 41
+  source_id: 658
+-
+  mon_id: 41
+  source_id: 659
+-
+  mon_id: 41
+  source_id: 660
+-
+  mon_id: 41
+  source_id: 661
+-
+  mon_id: 41
+  source_id: 662
+-
+  mon_id: 41
+  source_id: 663
+-
+  mon_id: 41
+  source_id: 664
+-
+  mon_id: 41
+  source_id: 665
+-
+  mon_id: 41
+  source_id: 666
+-
+  mon_id: 41
+  source_id: 667
+-
+  mon_id: 41
+  source_id: 668
+-
+  mon_id: 41
+  source_id: 669
+-
+  mon_id: 42
+  source_id: 177
+-
+  mon_id: 42
+  source_id: 704
+-
+  mon_id: 42
+  source_id: 705
+-
+  mon_id: 42
+  source_id: 706
+-
+  mon_id: 42
+  source_id: 707
+-
+  mon_id: 42
+  source_id: 708
+-
+  mon_id: 42
+  source_id: 709
+-
+  mon_id: 42
+  source_id: 710
+-
+  mon_id: 42
+  source_id: 711
+-
+  mon_id: 42
+  source_id: 712
+-
+  mon_id: 43
+  source_id: 179
+-
+  mon_id: 44
+  source_id: 181
+-
+  mon_id: 44
+  source_id: 182
+-
+  mon_id: 44
+  source_id: 591
+-
+  mon_id: 44
+  source_id: 592
+-
+  mon_id: 44
+  source_id: 593
+-
+  mon_id: 44
+  source_id: 594
+-
+  mon_id: 44
+  source_id: 595
+-
+  mon_id: 44
+  source_id: 596
+-
+  mon_id: 44
+  source_id: 597
+-
+  mon_id: 44
+  source_id: 598
+-
+  mon_id: 44
+  source_id: 599
+-
+  mon_id: 44
+  source_id: 600
+-
+  mon_id: 44
+  source_id: 601
+-
+  mon_id: 44
+  source_id: 602
+-
+  mon_id: 44
+  source_id: 603
+-
+  mon_id: 44
+  source_id: 604
+-
+  mon_id: 45
+  source_id: 183
+-
+  mon_id: 45
+  source_id: 184
+-
+  mon_id: 46
+  source_id: 185
+-
+  mon_id: 46
+  source_id: 186
+-
+  mon_id: 46
+  source_id: 364
+-
+  mon_id: 47
+  source_id: 188
+-
+  mon_id: 48
+  source_id: 189
+-
+  mon_id: 48
+  source_id: 211
+-
+  mon_id: 49
+  source_id: 190
+-
+  mon_id: 49
+  source_id: 191
+-
+  mon_id: 49
+  source_id: 703
+-
+  mon_id: 50
+  source_id: 192
+-
+  mon_id: 50
+  source_id: 562
+-
+  mon_id: 50
+  source_id: 563
+-
+  mon_id: 50
+  source_id: 564
+-
+  mon_id: 50
+  source_id: 565
+-
+  mon_id: 50
+  source_id: 566
+-
+  mon_id: 50
+  source_id: 567
+-
+  mon_id: 50
+  source_id: 568
+-
+  mon_id: 50
+  source_id: 569
+-
+  mon_id: 50
+  source_id: 570
+-
+  mon_id: 50
+  source_id: 571
+-
+  mon_id: 50
+  source_id: 572
+-
+  mon_id: 50
+  source_id: 573
+-
+  mon_id: 50
+  source_id: 574
+-
+  mon_id: 50
+  source_id: 575
+-
+  mon_id: 50
+  source_id: 576
+-
+  mon_id: 51
+  source_id: 178
+-
+  mon_id: 51
+  source_id: 180
+-
+  mon_id: 51
+  source_id: 237
+-
+  mon_id: 51
+  source_id: 238
+-
+  mon_id: 51
+  source_id: 239
+-
+  mon_id: 51
+  source_id: 240
+-
+  mon_id: 51
+  source_id: 241
+-
+  mon_id: 52
+  source_id: 216
+-
+  mon_id: 52
+  source_id: 217
+-
+  mon_id: 52
+  source_id: 713
+-
+  mon_id: 53
+  source_id: 218
+-
+  mon_id: 53
+  source_id: 420
+-
+  mon_id: 53
+  source_id: 421
+-
+  mon_id: 53
+  source_id: 422
+-
+  mon_id: 54
+  source_id: 219
+-
+  mon_id: 54
+  source_id: 220
+-
+  mon_id: 54
+  source_id: 221
+-
+  mon_id: 54
+  source_id: 222
+-
+  mon_id: 54
+  source_id: 358
+-
+  mon_id: 54
+  source_id: 360
+-
+  mon_id: 54
+  source_id: 362
+-
+  mon_id: 54
+  source_id: 363
+-
+  mon_id: 55
+  source_id: 223
+-
+  mon_id: 55
+  source_id: 224
+-
+  mon_id: 55
+  source_id: 225
+-
+  mon_id: 56
+  source_id: 226
+-
+  mon_id: 56
+  source_id: 242
+-
+  mon_id: 56
+  source_id: 243
+-
+  mon_id: 56
+  source_id: 244
+-
+  mon_id: 56
+  source_id: 245
+-
+  mon_id: 56
+  source_id: 246
+-
+  mon_id: 56
+  source_id: 357
+-
+  mon_id: 56
+  source_id: 392
+-
+  mon_id: 56
+  source_id: 393
+-
+  mon_id: 56
+  source_id: 394
+-
+  mon_id: 56
+  source_id: 395
+-
+  mon_id: 56
+  source_id: 396
+-
+  mon_id: 56
+  source_id: 397
+-
+  mon_id: 56
+  source_id: 398
+-
+  mon_id: 56
+  source_id: 399
+-
+  mon_id: 56
+  source_id: 400
+-
+  mon_id: 56
+  source_id: 401
+-
+  mon_id: 56
+  source_id: 402
+-
+  mon_id: 56
+  source_id: 403
+-
+  mon_id: 56
+  source_id: 404
+-
+  mon_id: 56
+  source_id: 405
+-
+  mon_id: 56
+  source_id: 406
+-
+  mon_id: 56
+  source_id: 407
+-
+  mon_id: 56
+  source_id: 408
+-
+  mon_id: 56
+  source_id: 409
+-
+  mon_id: 57
+  source_id: 227
+-
+  mon_id: 57
+  source_id: 228
+-
+  mon_id: 57
+  source_id: 229
+-
+  mon_id: 57
+  source_id: 423
+-
+  mon_id: 57
+  source_id: 424
+-
+  mon_id: 57
+  source_id: 425
+-
+  mon_id: 57
+  source_id: 426
+-
+  mon_id: 57
+  source_id: 427
+-
+  mon_id: 57
+  source_id: 428
+-
+  mon_id: 57
+  source_id: 429
+-
+  mon_id: 57
+  source_id: 430
+-
+  mon_id: 57
+  source_id: 431
+-
+  mon_id: 57
+  source_id: 432
+-
+  mon_id: 57
+  source_id: 433
+-
+  mon_id: 57
+  source_id: 434
+-
+  mon_id: 58
+  source_id: 230
+-
+  mon_id: 58
+  source_id: 231
+-
+  mon_id: 58
+  source_id: 445
+-
+  mon_id: 58
+  source_id: 446
+-
+  mon_id: 58
+  source_id: 447
+-
+  mon_id: 58
+  source_id: 448
+-
+  mon_id: 58
+  source_id: 449
+-
+  mon_id: 59
+  source_id: 232
+-
+  mon_id: 59
+  source_id: 233
+-
+  mon_id: 59
+  source_id: 234
+-
+  mon_id: 59
+  source_id: 235
+-
+  mon_id: 59
+  source_id: 236
+-
+  mon_id: 59
+  source_id: 516
+-
+  mon_id: 59
+  source_id: 517
+-
+  mon_id: 59
+  source_id: 518
+-
+  mon_id: 59
+  source_id: 519
+-
+  mon_id: 59
+  source_id: 520
+-
+  mon_id: 59
+  source_id: 521
+-
+  mon_id: 59
+  source_id: 522
+-
+  mon_id: 59
+  source_id: 523
+-
+  mon_id: 59
+  source_id: 524
+-
+  mon_id: 59
+  source_id: 525
+-
+  mon_id: 59
+  source_id: 526
+-
+  mon_id: 59
+  source_id: 527
+-
+  mon_id: 59
+  source_id: 528
+-
+  mon_id: 60
+  source_id: 247
+-
+  mon_id: 60
+  source_id: 248
+-
+  mon_id: 60
+  source_id: 249
+-
+  mon_id: 60
+  source_id: 250
+-
+  mon_id: 60
+  source_id: 435
+-
+  mon_id: 60
+  source_id: 436
+-
+  mon_id: 60
+  source_id: 437
+-
+  mon_id: 60
+  source_id: 438
+-
+  mon_id: 60
+  source_id: 439
+-
+  mon_id: 60
+  source_id: 440
+-
+  mon_id: 60
+  source_id: 441
+-
+  mon_id: 60
+  source_id: 442
+-
+  mon_id: 60
+  source_id: 443
+-
+  mon_id: 60
+  source_id: 444
+-
+  mon_id: 61
+  source_id: 251
+-
+  mon_id: 61
+  source_id: 252
+-
+  mon_id: 61
+  source_id: 253
+-
+  mon_id: 61
+  source_id: 254
+-
+  mon_id: 61
+  source_id: 255
+-
+  mon_id: 61
+  source_id: 256
+-
+  mon_id: 61
+  source_id: 257
+-
+  mon_id: 62
+  source_id: 258
+-
+  mon_id: 62
+  source_id: 259
+-
+  mon_id: 62
+  source_id: 260
+-
+  mon_id: 63
+  source_id: 261
+-
+  mon_id: 63
+  source_id: 262
+-
+  mon_id: 63
+  source_id: 263
+-
+  mon_id: 63
+  source_id: 419
+-
+  mon_id: 64
+  source_id: 264
+-
+  mon_id: 64
+  source_id: 265
+-
+  mon_id: 64
+  source_id: 266
+-
+  mon_id: 64
+  source_id: 267
+-
+  mon_id: 64
+  source_id: 268
+-
+  mon_id: 64
+  source_id: 269
+-
+  mon_id: 64
+  source_id: 270
+-
+  mon_id: 64
+  source_id: 271
+-
+  mon_id: 64
+  source_id: 272
+-
+  mon_id: 64
+  source_id: 273
+-
+  mon_id: 64
+  source_id: 274
+-
+  mon_id: 64
+  source_id: 275
+-
+  mon_id: 64
+  source_id: 332
+-
+  mon_id: 64
+  source_id: 463
+-
+  mon_id: 64
+  source_id: 464
+-
+  mon_id: 64
+  source_id: 465
+-
+  mon_id: 64
+  source_id: 466
+-
+  mon_id: 64
+  source_id: 467
+-
+  mon_id: 64
+  source_id: 468
+-
+  mon_id: 64
+  source_id: 469
+-
+  mon_id: 64
+  source_id: 470
+-
+  mon_id: 65
+  source_id: 284
+-
+  mon_id: 65
+  source_id: 367
+-
+  mon_id: 65
+  source_id: 503
+-
+  mon_id: 65
+  source_id: 504
+-
+  mon_id: 65
+  source_id: 505
+-
+  mon_id: 65
+  source_id: 506
+-
+  mon_id: 65
+  source_id: 507
+-
+  mon_id: 65
+  source_id: 508
+-
+  mon_id: 65
+  source_id: 509
+-
+  mon_id: 65
+  source_id: 510
+-
+  mon_id: 65
+  source_id: 511
+-
+  mon_id: 65
+  source_id: 512
+-
+  mon_id: 65
+  source_id: 513
+-
+  mon_id: 65
+  source_id: 514
+-
+  mon_id: 65
+  source_id: 515
+-
+  mon_id: 66
+  source_id: 287
+-
+  mon_id: 66
+  source_id: 288
+-
+  mon_id: 66
+  source_id: 289
+-
+  mon_id: 66
+  source_id: 290
+-
+  mon_id: 66
+  source_id: 291
+-
+  mon_id: 66
+  source_id: 292
+-
+  mon_id: 66
+  source_id: 293
+-
+  mon_id: 66
+  source_id: 294
+-
+  mon_id: 66
+  source_id: 296
+-
+  mon_id: 66
+  source_id: 297
+-
+  mon_id: 66
+  source_id: 482
+-
+  mon_id: 66
+  source_id: 483
+-
+  mon_id: 66
+  source_id: 484
+-
+  mon_id: 66
+  source_id: 485
+-
+  mon_id: 66
+  source_id: 486
+-
+  mon_id: 67
+  source_id: 278
+-
+  mon_id: 67
+  source_id: 279
+-
+  mon_id: 67
+  source_id: 280
+-
+  mon_id: 67
+  source_id: 281
+-
+  mon_id: 67
+  source_id: 282
+-
+  mon_id: 67
+  source_id: 283
+-
+  mon_id: 67
+  source_id: 487
+-
+  mon_id: 67
+  source_id: 488
+-
+  mon_id: 67
+  source_id: 489
+-
+  mon_id: 67
+  source_id: 490
+-
+  mon_id: 67
+  source_id: 491
+-
+  mon_id: 67
+  source_id: 492
+-
+  mon_id: 68
+  source_id: 314
+-
+  mon_id: 68
+  source_id: 315
+-
+  mon_id: 68
+  source_id: 316
+-
+  mon_id: 68
+  source_id: 317
+-
+  mon_id: 68
+  source_id: 318
+-
+  mon_id: 68
+  source_id: 319
+-
+  mon_id: 68
+  source_id: 320
+-
+  mon_id: 68
+  source_id: 321
+-
+  mon_id: 68
+  source_id: 322
+-
+  mon_id: 68
+  source_id: 323
+-
+  mon_id: 68
+  source_id: 324
+-
+  mon_id: 68
+  source_id: 325
+-
+  mon_id: 68
+  source_id: 326
+-
+  mon_id: 68
+  source_id: 327
+-
+  mon_id: 68
+  source_id: 328
+-
+  mon_id: 68
+  source_id: 329
+-
+  mon_id: 68
+  source_id: 330
+-
+  mon_id: 68
+  source_id: 493
+-
+  mon_id: 68
+  source_id: 494
+-
+  mon_id: 68
+  source_id: 495
+-
+  mon_id: 68
+  source_id: 496
+-
+  mon_id: 68
+  source_id: 497
+-
+  mon_id: 68
+  source_id: 498
+-
+  mon_id: 68
+  source_id: 499
+-
+  mon_id: 68
+  source_id: 500
+-
+  mon_id: 68
+  source_id: 501
+-
+  mon_id: 68
+  source_id: 502
+-
+  mon_id: 69
+  source_id: 298
+-
+  mon_id: 69
+  source_id: 299
+-
+  mon_id: 69
+  source_id: 300
+-
+  mon_id: 69
+  source_id: 301
+-
+  mon_id: 69
+  source_id: 302
+-
+  mon_id: 69
+  source_id: 303
+-
+  mon_id: 70
+  source_id: 304
+-
+  mon_id: 70
+  source_id: 305
+-
+  mon_id: 70
+  source_id: 306
+-
+  mon_id: 70
+  source_id: 307
+-
+  mon_id: 70
+  source_id: 308
+-
+  mon_id: 70
+  source_id: 309
+-
+  mon_id: 70
+  source_id: 531
+-
+  mon_id: 70
+  source_id: 532
+-
+  mon_id: 70
+  source_id: 533
+-
+  mon_id: 70
+  source_id: 534
+-
+  mon_id: 71
+  source_id: 310
+-
+  mon_id: 71
+  source_id: 311
+-
+  mon_id: 71
+  source_id: 312
+-
+  mon_id: 71
+  source_id: 313
+-
+  mon_id: 72
+  source_id: 365
+-
+  mon_id: 72
+  source_id: 366
+-
+  mon_id: 72
+  source_id: 375
+-
+  mon_id: 72
+  source_id: 376
+-
+  mon_id: 72
+  source_id: 377
+-
+  mon_id: 73
+  source_id: 537
+-
+  mon_id: 73
+  source_id: 538
+-
+  mon_id: 73
+  source_id: 539
+-
+  mon_id: 73
+  source_id: 540
+-
+  mon_id: 73
+  source_id: 541
+-
+  mon_id: 73
+  source_id: 542
+-
+  mon_id: 73
+  source_id: 543
+-
+  mon_id: 74
+  source_id: 471
+-
+  mon_id: 74
+  source_id: 472
+-
+  mon_id: 74
+  source_id: 473
+-
+  mon_id: 74
+  source_id: 474
+-
+  mon_id: 74
+  source_id: 475
+-
+  mon_id: 74
+  source_id: 476
+-
+  mon_id: 75
+  source_id: 368
+-
+  mon_id: 75
+  source_id: 370
+-
+  mon_id: 75
+  source_id: 371
+-
+  mon_id: 75
+  source_id: 372
+-
+  mon_id: 75
+  source_id: 373
+-
+  mon_id: 75
+  source_id: 374
+-
+  mon_id: 76
+  source_id: 544
+-
+  mon_id: 76
+  source_id: 546
+-
+  mon_id: 77
+  source_id: 623
+-
+  mon_id: 77
+  source_id: 624
+-
+  mon_id: 77
+  source_id: 625
+-
+  mon_id: 77
+  source_id: 626
+-
+  mon_id: 79
+  source_id: 535
+-
+  mon_id: 80
+  source_id: 378
+-
+  mon_id: 80
+  source_id: 379
+-
+  mon_id: 80
+  source_id: 380
+-
+  mon_id: 80
+  source_id: 381
+-
+  mon_id: 80
+  source_id: 382
+-
+  mon_id: 80
+  source_id: 383
+-
+  mon_id: 80
+  source_id: 384
+-
+  mon_id: 80
+  source_id: 385
+-
+  mon_id: 80
+  source_id: 386
+-
+  mon_id: 80
+  source_id: 387
+-
+  mon_id: 80
+  source_id: 388
+-
+  mon_id: 80
+  source_id: 536
+-
+  mon_id: 81
+  source_id: 450
+-
+  mon_id: 81
+  source_id: 451
+-
+  mon_id: 81
+  source_id: 452
+-
+  mon_id: 81
+  source_id: 453
+-
+  mon_id: 81
+  source_id: 454
+-
+  mon_id: 81
+  source_id: 455
+-
+  mon_id: 81
+  source_id: 456
+-
+  mon_id: 82
+  source_id: 390
+-
+  mon_id: 82
+  source_id: 457
+-
+  mon_id: 82
+  source_id: 458
+-
+  mon_id: 82
+  source_id: 459
+-
+  mon_id: 82
+  source_id: 460
+-
+  mon_id: 82
+  source_id: 461
+-
+  mon_id: 82
+  source_id: 462
+-
+  mon_id: 85
+  source_id: 553
+-
+  mon_id: 85
+  source_id: 554
+-
+  mon_id: 85
+  source_id: 555
+-
+  mon_id: 85
+  source_id: 556
+-
+  mon_id: 85
+  source_id: 557
+-
+  mon_id: 85
+  source_id: 558
+-
+  mon_id: 85
+  source_id: 559
+-
+  mon_id: 85
+  source_id: 560
+-
+  mon_id: 85
+  source_id: 561
+-
+  mon_id: 86
+  source_id: 577
+-
+  mon_id: 86
+  source_id: 578
+-
+  mon_id: 86
+  source_id: 579
+-
+  mon_id: 86
+  source_id: 580
+-
+  mon_id: 86
+  source_id: 581
+-
+  mon_id: 86
+  source_id: 582
+-
+  mon_id: 86
+  source_id: 583
+-
+  mon_id: 86
+  source_id: 584
+-
+  mon_id: 87
+  source_id: 605
+-
+  mon_id: 88
+  source_id: 585
+-
+  mon_id: 88
+  source_id: 586
+-
+  mon_id: 88
+  source_id: 587
+-
+  mon_id: 88
+  source_id: 588
+-
+  mon_id: 88
+  source_id: 589
+-
+  mon_id: 88
+  source_id: 590
+-
+  mon_id: 89
+  source_id: 606
+-
+  mon_id: 89
+  source_id: 607
+-
+  mon_id: 89
+  source_id: 608
+-
+  mon_id: 89
+  source_id: 609
+-
+  mon_id: 89
+  source_id: 610
+-
+  mon_id: 90
+  source_id: 611
+-
+  mon_id: 90
+  source_id: 612
+-
+  mon_id: 90
+  source_id: 613
+-
+  mon_id: 90
+  source_id: 614
+-
+  mon_id: 90
+  source_id: 615
+-
+  mon_id: 90
+  source_id: 616
+-
+  mon_id: 90
+  source_id: 617
+-
+  mon_id: 90
+  source_id: 618
+-
+  mon_id: 90
+  source_id: 619
+-
+  mon_id: 90
+  source_id: 620
+-
+  mon_id: 90
+  source_id: 621
+-
+  mon_id: 90
+  source_id: 622
+-
+  mon_id: 91
+  source_id: 630
+-
+  mon_id: 92
+  source_id: 631
+-
+  mon_id: 92
+  source_id: 632
+-
+  mon_id: 92
+  source_id: 633
+-
+  mon_id: 92
+  source_id: 634
+-
+  mon_id: 92
+  source_id: 635
+-
+  mon_id: 92
+  source_id: 636
+-
+  mon_id: 92
+  source_id: 637
+-
+  mon_id: 92
+  source_id: 638
+-
+  mon_id: 93
+  source_id: 639
+-
+  mon_id: 93
+  source_id: 640
+-
+  mon_id: 93
+  source_id: 641
+-
+  mon_id: 93
+  source_id: 642
+-
+  mon_id: 93
+  source_id: 643
+-
+  mon_id: 93
+  source_id: 644
+-
+  mon_id: 94
+  source_id: 645
+-
+  mon_id: 94
+  source_id: 646
+-
+  mon_id: 94
+  source_id: 647
+-
+  mon_id: 94
+  source_id: 648
+-
+  mon_id: 94
+  source_id: 649
+-
+  mon_id: 95
+  source_id: 650
+-
+  mon_id: 95
+  source_id: 651
+-
+  mon_id: 95
+  source_id: 652
+-
+  mon_id: 95
+  source_id: 653
+-
+  mon_id: 95
+  source_id: 654
+-
+  mon_id: 96
+  source_id: 677
+-
+  mon_id: 96
+  source_id: 678
+-
+  mon_id: 96
+  source_id: 679
+-
+  mon_id: 96
+  source_id: 680
+-
+  mon_id: 96
+  source_id: 681
+-
+  mon_id: 96
+  source_id: 682
+-
+  mon_id: 96
+  source_id: 683
+-
+  mon_id: 97
+  source_id: 684
+-
+  mon_id: 97
+  source_id: 685
+-
+  mon_id: 97
+  source_id: 686
+-
+  mon_id: 97
+  source_id: 687
+-
+  mon_id: 97
+  source_id: 688
+-
+  mon_id: 97
+  source_id: 689
+-
+  mon_id: 97
+  source_id: 690
+-
+  mon_id: 97
+  source_id: 691
+-
+  mon_id: 97
+  source_id: 692
+-
+  mon_id: 97
+  source_id: 693
+-
+  mon_id: 97
+  source_id: 694
+-
+  mon_id: 98
+  source_id: 695
+-
+  mon_id: 98
+  source_id: 696
+-
+  mon_id: 98
+  source_id: 697
+-
+  mon_id: 98
+  source_id: 698
+-
+  mon_id: 98
+  source_id: 699
+-
+  mon_id: 98
+  source_id: 700
+-
+  mon_id: 98
+  source_id: 701
+-
+  mon_id: 98
+  source_id: 702
+-
+  mon_id: 99
+  source_id: 113
+-
+  mon_id: 99
+  source_id: 757
+-
+  mon_id: 99
+  source_id: 758
+-
+  mon_id: 99
+  source_id: 759
+-
+  mon_id: 99
+  source_id: 760
+-
+  mon_id: 99
+  source_id: 761
+-
+  mon_id: 99
+  source_id: 762
+-
+  mon_id: 99
+  source_id: 763
+-
+  mon_id: 99
+  source_id: 764
+-
+  mon_id: 99
+  source_id: 765
+-
+  mon_id: 100
+  source_id: 766
+-
+  mon_id: 100
+  source_id: 767
+-
+  mon_id: 100
+  source_id: 768
+-
+  mon_id: 100
+  source_id: 769
+-
+  mon_id: 100
+  source_id: 770
+-
+  mon_id: 100
+  source_id: 771
+-
+  mon_id: 100
+  source_id: 772
+-
+  mon_id: 100
+  source_id: 773
+-
+  mon_id: 100
+  source_id: 774
+-
+  mon_id: 100
+  source_id: 775
+-
+  mon_id: 100
+  source_id: 776
+-
+  mon_id: 100
+  source_id: 777
+-
+  mon_id: 100
+  source_id: 778
+-
+  mon_id: 100
+  source_id: 779
+-
+  mon_id: 100
+  source_id: 780
+-
+  mon_id: 100
+  source_id: 781
+-
+  mon_id: 100
+  source_id: 782
+-
+  mon_id: 100
+  source_id: 783
+-
+  mon_id: 100
+  source_id: 784
+-
+  mon_id: 100
+  source_id: 785
+-
+  mon_id: 100
+  source_id: 786
+-
+  mon_id: 100
+  source_id: 787
+-
+  mon_id: 100
+  source_id: 788
+-
+  mon_id: 100
+  source_id: 789
+-
+  mon_id: 100
+  source_id: 790
+-
+  mon_id: 100
+  source_id: 791
+-
+  mon_id: 100
+  source_id: 792
+-
+  mon_id: 100
+  source_id: 793
+-
+  mon_id: 100
+  source_id: 794
+-
+  mon_id: 100
+  source_id: 795
+-
+  mon_id: 100
+  source_id: 796
+-
+  mon_id: 100
+  source_id: 797
+-
+  mon_id: 100
+  source_id: 798
+-
+  mon_id: 100
+  source_id: 799
+-
+  mon_id: 100
+  source_id: 800
+-
+  mon_id: 100
+  source_id: 801
+-
+  mon_id: 100
+  source_id: 802
+-
+  mon_id: 104
+  source_id: 714
+-
+  mon_id: 104
+  source_id: 715
+-
+  mon_id: 104
+  source_id: 716
+-
+  mon_id: 104
+  source_id: 717
+-
+  mon_id: 104
+  source_id: 718
+-
+  mon_id: 105
+  source_id: 719
+-
+  mon_id: 105
+  source_id: 720
+-
+  mon_id: 105
+  source_id: 721
+-
+  mon_id: 105
+  source_id: 722
+-
+  mon_id: 105
+  source_id: 723
+-
+  mon_id: 105
+  source_id: 724
+-
+  mon_id: 105
+  source_id: 725
+-
+  mon_id: 106
+  source_id: 726
+-
+  mon_id: 106
+  source_id: 727
+-
+  mon_id: 107
+  source_id: 728
+-
+  mon_id: 107
+  source_id: 729
+-
+  mon_id: 107
+  source_id: 730
+-
+  mon_id: 107
+  source_id: 731
+-
+  mon_id: 107
+  source_id: 732
+-
+  mon_id: 108
+  source_id: 733
+-
+  mon_id: 108
+  source_id: 734
+-
+  mon_id: 108
+  source_id: 735
+-
+  mon_id: 108
+  source_id: 736
+-
+  mon_id: 108
+  source_id: 737
+-
+  mon_id: 108
+  source_id: 738
+-
+  mon_id: 109
+  source_id: 739
+-
+  mon_id: 109
+  source_id: 740
+-
+  mon_id: 109
+  source_id: 741
+-
+  mon_id: 109
+  source_id: 742
+-
+  mon_id: 109
+  source_id: 743
+-
+  mon_id: 110
+  source_id: 744
+-
+  mon_id: 110
+  source_id: 745
+-
+  mon_id: 110
+  source_id: 746
+-
+  mon_id: 110
+  source_id: 747
+-
+  mon_id: 111
+  source_id: 748
+-
+  mon_id: 111
+  source_id: 749
+-
+  mon_id: 111
+  source_id: 750
+-
+  mon_id: 111
+  source_id: 751
+-
+  mon_id: 112
+  source_id: 752
+-
+  mon_id: 112
+  source_id: 753
+-
+  mon_id: 112
+  source_id: 754
+-
+  mon_id: 112
+  source_id: 755
+-
+  mon_id: 113
+  source_id: 756
+-
+  mon_id: 115
+  source_id: 850
+-
+  mon_id: 115
+  source_id: 851
+-
+  mon_id: 115
+  source_id: 852
+-
+  mon_id: 115
+  source_id: 853
+-
+  mon_id: 115
+  source_id: 854
+-
+  mon_id: 115
+  source_id: 855
+-
+  mon_id: 115
+  source_id: 856
+-
+  mon_id: 115
+  source_id: 857
+-
+  mon_id: 115
+  source_id: 858
+-
+  mon_id: 115
+  source_id: 859
+-
+  mon_id: 115
+  source_id: 860
+-
+  mon_id: 115
+  source_id: 861
+-
+  mon_id: 115
+  source_id: 862
+-
+  mon_id: 115
+  source_id: 863
+-
+  mon_id: 115
+  source_id: 864
+-
+  mon_id: 115
+  source_id: 865

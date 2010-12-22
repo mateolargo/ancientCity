@@ -1,0 +1,66 @@
+%YAML 1.1
+---
+-
+  region_id: 1
+  assoc_city_id: 1
+  name: 'Regio 1: Porta Capena'
+-
+  region_id: 2
+  assoc_city_id: 1
+  name: 'Regio 2: Caelemontium'
+-
+  region_id: 3
+  assoc_city_id: 1
+  name: 'Regio 3: Isis et Serapis'
+-
+  region_id: 4
+  assoc_city_id: 1
+  name: 'Regio 4: Templum Pacis'
+-
+  region_id: 5
+  assoc_city_id: 1
+  name: 'Regio 5: Esquiliae'
+-
+  region_id: 6
+  assoc_city_id: 1
+  name: 'Regio 6: Alta Semita'
+-
+  region_id: 7
+  assoc_city_id: 1
+  name: 'Regio 7: Via Lata'
+-
+  region_id: 8
+  assoc_city_id: 1
+  name: 'Regio 8: Forum Romanum'
+-
+  region_id: 9
+  assoc_city_id: 1
+  name: 'Regio 9: Circus Flaminius'
+-
+  region_id: 10
+  assoc_city_id: 1
+  name: 'Regio 10: Palatium'
+-
+  region_id: 11
+  assoc_city_id: 1
+  name: 'Regio 11: Circus Maximus'
+-
+  region_id: 12
+  assoc_city_id: 1
+  name: 'Regio 12: Piscina Publica'
+-
+  region_id: 13
+  assoc_city_id: 1
+  name: 'Regio 13: Aventinus'
+-
+  region_id: 14
+  assoc_city_id: 1
+  name: 'Regio 14: Transtiberim'
+-
+  region_id: 15
+  assoc_city_id: 2
+  name: Agora
+-
+  region_id: 16
+  assoc_city_id: 2
+  name: Acropolis

@@ -1,0 +1,620 @@
+%YAML 1.1
+---
+-
+  mon_id: 1
+  name: Rome
+  type_id: 2
+  diagram: /maps/rome_regions_x.swf
+  image: 4
+-
+  mon_id: 2
+  name: Athens
+  type_id: 1
+  image: 39
+-
+  mon_id: 3
+  region_id: 8
+  name: Forum of Augustus
+  parent_id: 4
+  type_id: 1
+  description: |-
+    Vowed at Battle of Philippi 42 BC
+    Dedicated 2 BC
+  diagram: /maps/forumaugustus.swf
+  image: 2
+-
+  mon_id: 4
+  region_id: 8
+  name: Imperial Fora
+  parent_id: 1
+  type_id: 1
+  description: 
+  diagram: 
+  image: 15
+-
+  mon_id: 5
+  name: Temple of Mars Ultor
+  parent_id: 3
+  type_id: 1
+  diagram: /maps/forumaugustus.swf
+  image: 2
+-
+  mon_id: 6
+  name: Summi Viri
+  parent_id: 3
+  type_id: 1
+  diagram: /maps/forumaugustus.swf
+  image: 11
+-
+  mon_id: 10
+  name: Erechtheion
+  parent_id: 7
+  type_id: 1
+  image: 51
+-
+  mon_id: 7
+  name: Acropolis
+  parent_id: 2
+  type_id: 1
+  image: 47
+-
+  mon_id: 8
+  name: Agora
+  parent_id: 2
+  type_id: 1
+  image: 102
+-
+  mon_id: 18
+  region_id: 3
+  name: Baths of Trajan
+  parent_id: 1
+  type_id: 1
+  description: Built after fire of AD 104
+  diagram: 
+  image: 75
+-
+  mon_id: 11
+  name: Temple of Nike
+  parent_id: 7
+  type_id: 1
+  image: 78
+-
+  mon_id: 12
+  name: Parthenon
+  parent_id: 7
+  type_id: 1
+  image: 50
+-
+  mon_id: 13
+  name: Propylaia
+  parent_id: 7
+  type_id: 1
+  image: 95
+-
+  mon_id: 14
+  region_id: 0
+  name: Baths of Agrippa
+  parent_id: 76
+  type_id: 1
+  description: Built by Agrippa ca. 20 BC
+  diagram: 
+  image: 57
+-
+  mon_id: 15
+  region_id: 12
+  name: Baths of Caracalla
+  parent_id: 1
+  type_id: 1
+  description: Dedicated in AD 216
+  diagram: 
+  image: 59
+-
+  mon_id: 16
+  region_id: 6
+  name: Baths of Diocletian
+  parent_id: 1
+  type_id: 1
+  description: Dedicated in late 305 or early 306
+  diagram: 
+  image: 72
+-
+  mon_id: 17
+  region_id: 3
+  name: Baths of Titus
+  parent_id: 1
+  type_id: 1
+  description: Dedicated in AD 80
+  diagram: 
+  image: 74
+-
+  mon_id: 72
+  region_id: 10
+  name: Lupercal Cave
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 19
+  name: Royal Stoa
+  parent_id: 8
+  type_id: 1
+  image: 112
+-
+  mon_id: 20
+  name: Pnyx
+  parent_id: 2
+  type_id: 1
+  image: 108
+-
+  mon_id: 21
+  name: Monument of Eponymous Heroes
+  parent_id: 8
+  type_id: 1
+  image: 106
+-
+  mon_id: 22
+  name: Tholos
+  parent_id: 8
+  type_id: 1
+  image: 135
+-
+  mon_id: 23
+  name: Bouleuterion
+  parent_id: 8
+  type_id: 1
+  image: 130
+-
+  mon_id: 24
+  name: Olynthus
+  type_id: 1
+  image: 143
+-
+  mon_id: 25
+  name: Gymnasia
+  parent_id: 2
+  type_id: 1
+  image: 155
+-
+  mon_id: 26
+  name: Theater of Dionysos
+  parent_id: 2
+  type_id: 1
+  image: 148
+-
+  mon_id: 42
+  region_id: 3
+  name: Flavian Ampitheatre
+  parent_id: 1
+  type_id: 1
+  image: 177
+-
+  mon_id: 41
+  region_id: 11
+  name: Circus Maximus
+  parent_id: 1
+  type_id: 1
+  image: 175
+-
+  mon_id: 40
+  region_id: 8
+  name: Capitoline Hill
+  parent_id: 1
+  type_id: 1
+  image: 173
+-
+  mon_id: 43
+  region_id: 11
+  name: Forum Boarium
+  parent_id: 1
+  type_id: 1
+  image: 179
+-
+  mon_id: 44
+  region_id: 0
+  name: Mausoleum of Augustus
+  parent_id: 76
+  type_id: 1
+  image: 181
+-
+  mon_id: 45
+  region_id: 13
+  name: Monte Testaccio
+  parent_id: 1
+  type_id: 1
+  image: 183
+-
+  mon_id: 46
+  region_id: 10
+  name: Palatine Hill
+  parent_id: 1
+  type_id: 1
+  image: 185
+-
+  mon_id: 47
+  region_id: 0
+  name: Stadium of Domitian
+  parent_id: 76
+  type_id: 1
+  image: 188
+-
+  mon_id: 48
+  name: Temple of Portunus
+  parent_id: 43
+  type_id: 1
+  description: c. 80-70 BC<br>Renovated late 1st or 2nd century AD
+  diagram: 
+-
+  mon_id: 49
+  region_id: 4
+  name: Temple of Venus and Rome
+  parent_id: 1
+  type_id: 1
+  image: 190
+-
+  mon_id: 50
+  region_id: 0
+  name: Theatre of Pompey
+  parent_id: 76
+  type_id: 1
+  image: 192
+-
+  mon_id: 51
+  region_id: 8
+  name: Forum Romanum
+  parent_id: 1
+  type_id: 1
+  image: 178
+-
+  mon_id: 52
+  region_id: 4
+  name: Arch of Constantine
+  parent_id: 1
+  type_id: 1
+  image: 216
+-
+  mon_id: 53
+  name: Arch of Septimius Severus
+  parent_id: 51
+  type_id: 1
+  image: 218
+-
+  mon_id: 54
+  region_id: 4
+  name: Arch of Titus
+  parent_id: 1
+  type_id: 1
+  image: 219
+-
+  mon_id: 55
+  name: Atrium Vestae
+  parent_id: 51
+  type_id: 1
+  image: 225
+-
+  mon_id: 56
+  name: Temple of Jupiter Optimus Maximus
+  parent_id: 40
+  type_id: 1
+  image: 226
+-
+  mon_id: 57
+  name: Temple of Castor and Pollux
+  parent_id: 51
+  type_id: 1
+  image: 228
+-
+  mon_id: 58
+  name: Temple of Concord
+  parent_id: 51
+  type_id: 1
+  image: 230
+-
+  mon_id: 59
+  name: Temple of Divus Julius
+  parent_id: 51
+  type_id: 1
+  image: 236
+-
+  mon_id: 60
+  name: Temple of Saturn
+  parent_id: 51
+  type_id: 1
+  image: 247
+-
+  mon_id: 61
+  name: Shrine of Vesta
+  parent_id: 51
+  type_id: 1
+  image: 257
+-
+  mon_id: 62
+  name: Shrine of Venus Cloacina
+  parent_id: 51
+  type_id: 1
+  image: 258
+-
+  mon_id: 63
+  name: Temple of Vespasian
+  parent_id: 51
+  type_id: 1
+  image: 263
+-
+  mon_id: 64
+  region_id: 10
+  name: Palace of Domitian
+  parent_id: 1
+  type_id: 1
+  image: 270
+-
+  mon_id: 65
+  region_id: 0
+  name: Forum of Julius Caesar
+  parent_id: 4
+  type_id: 1
+  image: 284
+-
+  mon_id: 66
+  name: Forum of Nerva
+  parent_id: 4
+  type_id: 1
+  image: 294
+-
+  mon_id: 67
+  name: Forum of Peace
+  parent_id: 4
+  type_id: 1
+  image: 282
+-
+  mon_id: 68
+  name: Forum of Trajan
+  parent_id: 4
+  type_id: 1
+  description: 'Dedicated in AD 112<br>Column dedicated in AD 113<br><br>Architect: Apollodorus of Damascus'
+  diagram: 
+  image: 328
+-
+  mon_id: 69
+  name: Basilica Ulpia
+  parent_id: 68
+  type_id: 1
+  image: 302
+-
+  mon_id: 70
+  name: Column of Trajan
+  parent_id: 68
+  type_id: 1
+  image: 309
+-
+  mon_id: 71
+  name: Libraries
+  parent_id: 68
+  type_id: 1
+  image: 313
+-
+  mon_id: 73
+  region_id: 10
+  name: House of Augustus
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 74
+  region_id: 3
+  name: The Domus Aurea
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 75
+  region_id: 3
+  name: The Colossus of Nero
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 76
+  region_id: 9
+  name: The Campus Martius
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 77
+  region_id: 9
+  name: The Circus Flaminius
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 78
+  region_id: 9
+  name: The Forum Holitorium
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 79
+  region_id: 10
+  name: Temple of Victory
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 80
+  region_id: 10
+  name: Temple of Magna Mater
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 81
+  region_id: 10
+  name: Temple of Apollo
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 82
+  region_id: 10
+  name: Palace of Tiberius
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 83
+  region_id: 13
+  name: Aventine Hill
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 84
+  region_id: 13
+  name: Emporium
+  parent_id: 1
+  type_id: 1
+-
+  mon_id: 85
+  name: Porticus Minucia
+  parent_id: 76
+  type_id: 1
+-
+  mon_id: 86
+  name: Pantheon
+  parent_id: 76
+  type_id: 1
+-
+  mon_id: 87
+  name: Column of Marcus Aurelius
+  parent_id: 76
+  type_id: 1
+-
+  mon_id: 88
+  name: Sundial of Augustus
+  parent_id: 76
+  type_id: 1
+-
+  mon_id: 89
+  name: Altar of Augustan Peace
+  parent_id: 76
+  type_id: 1
+-
+  mon_id: 90
+  name: Mausoleum of Hadrian
+  parent_id: 76
+  type_id: 1
+-
+  mon_id: 91
+  name: Temple of Hercules of the Muses
+  parent_id: 77
+  type_id: 1
+-
+  mon_id: 92
+  name: Porticus of Octavia
+  parent_id: 77
+  type_id: 1
+-
+  mon_id: 93
+  name: Theater of Marcellus
+  parent_id: 77
+  type_id: 1
+-
+  mon_id: 94
+  name: Temple of Apollo Medicus
+  parent_id: 77
+  type_id: 1
+-
+  mon_id: 95
+  name: Temple of Bellona
+  parent_id: 77
+  type_id: 1
+-
+  mon_id: 96
+  name: The Roman Triumph
+  parent_id: 40
+  type_id: 1
+-
+  mon_id: 97
+  name: Tarpeian Cliffs
+  parent_id: 40
+  type_id: 1
+-
+  mon_id: 98
+  name: Carcer
+  parent_id: 40
+  type_id: 1
+-
+  mon_id: 99
+  name: Stoa of Zeus Eleutherios
+  parent_id: 8
+  type_id: 1
+-
+  mon_id: 100
+  name: Stoa Poikile
+  parent_id: 8
+  type_id: 1
+-
+  mon_id: 101
+  name: Prytaneion
+  parent_id: 8
+  type_id: 1
+-
+  mon_id: 102
+  name: Strategion
+  parent_id: 8
+  type_id: 1
+-
+  mon_id: 103
+  name: Thesmotheteion
+  parent_id: 8
+  type_id: 1
+-
+  mon_id: 104
+  name: Cloaca Maxima
+  parent_id: 51
+  type_id: 1
+-
+  mon_id: 105
+  name: Lacus Curtius
+  parent_id: 51
+  type_id: 1
+-
+  mon_id: 106
+  name: Niger Lapis
+  parent_id: 51
+  type_id: 1
+-
+  mon_id: 107
+  name: Curia Hostilia
+  parent_id: 51
+  type_id: 1
+-
+  mon_id: 108
+  name: Curia Julia
+  parent_id: 51
+  type_id: 1
+-
+  mon_id: 109
+  name: Republican Rostra
+  parent_id: 51
+  type_id: 1
+-
+  mon_id: 110
+  name: Imperial Rostra
+  parent_id: 51
+  type_id: 1
+-
+  mon_id: 111
+  name: Mundus
+  parent_id: 51
+  type_id: 1
+-
+  mon_id: 112
+  name: The Golden Milestone
+  parent_id: 51
+  type_id: 1
+-
+  mon_id: 113
+  name: Umbilicus Romae
+  parent_id: 51
+  type_id: 1
+-
+  mon_id: 114
+  name: Basilica Aemilia
+  parent_id: 51
+  type_id: 1
+  description: 
+  diagram: 
+-
+  mon_id: 115
+  name: Metroon
+  parent_id: 8
+  type_id: 1
