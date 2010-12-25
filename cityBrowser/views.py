@@ -7,18 +7,19 @@ def index(request):
     return HttpResponse("Hello, World!")
 
 def rome(request):
-    rome = Monument.objects.get(name="Rome")
-    regions = rome.regions.all()
-    imgSources = Source.objects.filter(monument=rome,type=Source.TYPES.IMAGE)
-    textSources = Source.objects.filter(monument=rome,type=Source.TYPES.TEXT)
-    linkSources = Source.objects.filter(monument=rome,type=Source.TYPES.PDF)
+    city = Monument.objects.get(name="Rome")
+    regions = city.regions.all()
+
+    img_sources = city.source_set.filter(type=Source.TYPES.IMAGE) #Source.objects.filter(monument=monument,type=Source.TYPES.IMAGE)
+    text_sources = city.source_set.filter(type=Source.TYPES.TEXT) #Source.objects.filter(monument=monument,type=Source.TYPES.TEXT)
+    link_sources = city.source_set.filter(type=Source.TYPES.PDF) #Source.objects.filter(monument=monument,type=Source.TYPES.PDF)
     
     templatevars = {
-        'city': rome,
+        'city': city,
         'regions': regions,
-        'imageSources': imgSources,
-        'textSources': textSources,
-        'linkSources': linkSources,
+        'imageSources': img_sources,
+        'textSources': text_sources,
+        'linkSources': link_sources,
     }
 
     response = render_to_response('city.html', templatevars, context_instance=RequestContext(request))
@@ -43,9 +44,9 @@ def monument(request, mon_id):
 
     children = monument.monument_set.all()
 
-    img_sources = Source.objects.filter(monument=monument,type=Source.TYPES.IMAGE)
-    text_sources = Source.objects.filter(monument=monument,type=Source.TYPES.TEXT)
-    link_sources = Source.objects.filter(monument=monument,type=Source.TYPES.PDF)
+    img_sources = monument.source_set.filter(type=Source.TYPES.IMAGE) #Source.objects.filter(monument=monument,type=Source.TYPES.IMAGE)
+    text_sources = monument.source_set.filter(type=Source.TYPES.TEXT) #Source.objects.filter(monument=monument,type=Source.TYPES.TEXT)
+    link_sources = monument.source_set.filter(type=Source.TYPES.PDF) #Source.objects.filter(monument=monument,type=Source.TYPES.PDF)
 
     templatevars = {
         'monument': monument,

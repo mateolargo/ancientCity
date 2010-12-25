@@ -1,9 +1,6 @@
 %YAML 1.1
 ---
 -
-  mon_id: 0
-  source_id: 0
--
   mon_id: 1
   source_id: 4
 -

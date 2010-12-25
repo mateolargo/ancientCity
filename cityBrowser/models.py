@@ -4,6 +4,9 @@ class Monument(models.Model):
     def __unicode__(self):
         return self.name
 
+    class Meta:
+        ordering = ['id']
+
     name = models.CharField(max_length=100)
     parent = models.ForeignKey('self', null=True, blank=True)
     region = models.ForeignKey('Region', null=True, blank=True)
@@ -26,13 +29,15 @@ class Source(models.Model):
         return self.title
 
     title = models.CharField(max_length=100)
-    monument = models.ForeignKey(Monument, null=False, blank=False)
-    bibliography = models.TextField(blank=True)
+    monuments = models.ManyToManyField(Monument)
+    #monument = models.ForeignKey(Monument, null=False, blank=False)
+    bibliography = models.TextField(null=True, blank=True)
     
     class TYPES:
         IMAGE = 1
         PDF = 2
         TEXT = 3
+        FLASH = 4
     TYPE_CHOICES = [(TYPES.__dict__[name], name) for name in dir(TYPES) if not name.startswith('_')]
 
     type = models.IntegerField(choices=TYPE_CHOICES)
