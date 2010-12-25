@@ -7,7 +7,7 @@ class Monument(models.Model):
     name = models.CharField(max_length=100)
     parent = models.ForeignKey('self', null=True, blank=True)
     region = models.ForeignKey('Region', null=True, blank=True)
-    description = models.TextField(blank=True)
+    description = models.TextField(null=True, blank=True)
     main_source = models.CharField(max_length=200, null=True, blank=True)
 
 class Region(models.Model):
