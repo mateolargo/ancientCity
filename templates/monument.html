@@ -11,21 +11,27 @@
     #Header h1 { color:white; font-size:30px; font-weight:bold; }
     #Navigation { font-size:16px; padding:5px 10px; background-color:#FFF; }
     #Navigation a:link, #Navigation a:active, #Navigation a:visited { color: #4060A0; }
-
+    a { color:#4060A0; }
+    a:visited { color: purple; }
     #LeftColumn { float:left; width:700px; padding:10px; }
-    #RightColumn { }
+    #RightColumn { float:left; padding: 10px 0 0 0; }
 
-    .main-img { max-height:400px; max-width:500px; }
+    .main-img { max-height:400px; max-width:500px; padding-bottom:10px }
     #Description { padding:8px 0; }
 
     #Images { }
     #Text { }
 
-    .thumb-wrapper { float:left; font-size:12px; height:160px; text-align:center; width:215px; }
+    .region-name { font-size:14px; font-weight:bold; }
+    .region-monuments { font-size:14px; padding-left:15px; }
+
+    .thumb-wrapper { float:left; font-size:12px; margin-bottom:12px; /*height:200px;*/ text-align:center; width:215px; }
     .thumb-wrapper a { cursor:pointer; }
 
     .text-original { float:left; border-right: 1px solid #333333; padding:5px; width:240px; }
     .text-english { float:left; width:239px; padding:5px; }
+
+    .clear-both {clear:both;}
   </style>
 
   <script type="text/javascript" src="/media/highslide/highslide.js"></script>
@@ -47,16 +53,18 @@
     <div id="LeftColumn">
       <img src="/media/sources/{{monument.main_source}}" class="main-img"/>
       
+      {% if monument.description %}
       <div id="Description">{{monument.description}}</div>
+      {% endif %}
 
       <div id="Images">
 	{% for s in image_sources %}
-	<div class="thumb-wrapper">
+	<div class="thumb-wrapper {% cycle 'clear-both' '' ''%}">
 	  <a href="/media/sources/{{s.url}}" class="highslide" onclick="return hs.expand(this)">
 	    <img title="Click to enlarge" src="/media/sources/{{s.thumbnail_url}}"/><br>
-	    <span>{{s.title}}</span>
+	    <span>{{s.title|linebreaksbr}}</span>
 	  </a>
-	  <div class="highslide-caption">{{s.title}}</div>
+	  <div class="highslide-caption">{{s.title|linebreaksbr}}</div>
 	</div>
 	{% endfor %}
 	<div style="clear:both;"></div>
@@ -64,7 +72,7 @@
 
       {% ifnotequal text_source_count 0 %}
       <div id="Text">
-	<div>Textual References</div>
+	<div style="font-weight:bold;">Textual References</div>
 	{% for s in text_sources %}
 	<a href="#" onclick="return hs.htmlExpand(this, {headingText:'{{s.title}}',width:500})">{{s.title}}</a><br>
 	<div class="highslide-maincontent" style="width:auto;">
@@ -75,18 +83,33 @@
 	{% endfor %}
 
 	{% for s in link_sources %}
-	<a class="text-link" href="{{s.url}}">{{s.title}}</a><br>
+	<a class="text-link" href="/media/sources/{{s.url}}">{{s.title|linebreaksbr}}</a><br>
 	{% endfor %}
       </div>
       {% endifnotequal %}
     </div>
     <div id="RightColumn">
-      <h2>Within this location:</h2>
-      <ul>
-      {% for m in children %}
-        <li>{{m.name}}</li>
+      {% if has_regions %}
+
+      {% for r in regions %}
+      <h3 class="region-name">{{r.region.name}}</h3>
+      <ul class="region-monuments">
+      {% for m in r.monuments %}
+      <li><a href="/{{m.id}}">{{m.name|linebreaksbr}}</a></li>
       {% endfor %}
       </ul>
+      {% endfor %}
+      
+      {% else %}
+
+      <h3 class="region-name">Within this location:</h3>
+      <ul class="region-monuments">
+      {% for m in children %}
+      <li><a href="/{{m.id}}">{{m.name}}</a></li>
+      {% endfor %}
+      </ul>
+
+      {% endif %}
     </div>
     <div style="clear:both;"></div>
   </div>

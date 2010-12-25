@@ -52,14 +52,17 @@ sources = {}
 for s in parsed_sources:
     #print s
     source_id = int(s.get('source_id'))
-    title = s.get('name')
+    title = clean(s.get('name'))
     bibliography = s.get('bibliography')
-    original = s.get('original')
-    english = s.get('english')
+    original = clean(s.get('original'))
+    english = clean(s.get('english'))
     source_type_id = int(s.get('src_type_id'))
     source_type_id = 3 if source_type_id == 5 else source_type_id
     url = s.get('url')
-    thumbnail_url = s.get('thumbnail_url')
+    url = url[1:] if url and url[0] == '/' else url
+
+    thumbnail_url = s.get('thumb_url')
+    thumbnail_url = thumbnail_url[1:] if thumbnail_url and thumbnail_url[0] == '/' else thumbnail_url
 
     if source_type_id > 3:
         continue
@@ -91,8 +94,13 @@ for r in regions.values():
     mon = Monument.objects.get(id=r['parent_mon_id'])
     Region.objects.get_or_create(id=r['id'],name=r['name'],encompassing_monument=mon,order_index=r['order_index'])
 
+for s in sources.values():
+    Source.objects.get_or_create(id=s['id'],title=s['title'],bibliography=s['bibliography'],type=s['type'],
+                                 url=s['url'],thumbnail_url=s['thumbnail_url'],original_text=s['original'],
+                                 english_text=s['english'])
+
 for m in monuments.values():
-    parent,reg = None, None
+    parent,reg, image  = None, None, None
     if m['parent_id']:
         parent = Monument.objects.get(id=m['parent_id'])
     else:
@@ -101,15 +109,17 @@ for m in monuments.values():
     if m['region_id']:
         reg = Region.objects.get(id=m['region_id'])
         
+    if m['image']:
+        try:
+            image = Source.objects.get(id=m['image'])
+        except:
+            image = None
+
     mon = Monument.objects.get(id=m['id'])
     mon.region = reg
     mon.parent = parent
+    mon.main_source = image.url if image else None
     mon.save()
-
-for s in sources.values():
-    Source.objects.get_or_create(id=s['id'],title=s['title'],bibliography=s['bibliography'],type=s['type'],
-                                 url=s['url'],thumbnail_url=s['thumbnail_url'],original_text=s['original'],
-                                 english_text=s['english'])
 
 for sr in refs:
     source,mon = None, None
