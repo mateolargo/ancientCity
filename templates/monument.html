@@ -49,7 +49,7 @@
     </div>
     <div id="Navigation">
       <a href="{{ROOT_PATH}}{{base_monument.id}}">{{base_monument.name}}</a>
-      {% for m in breadcrumbs %} &rsaquo; <a href="{{ROOT_PATH}}{{base_monument.id}}">{{m.name}}</a>{% endfor %}
+      {% for m in breadcrumbs %} &rsaquo; <a href="{{ROOT_PATH}}{{m.id}}">{{m.name}}</a>{% endfor %}
     </div>
     <div id="LeftColumn">
       <img src="{{MEDIA_URL}}sources/{{monument.main_source}}" class="main-img"/>
