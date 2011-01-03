@@ -48,8 +48,8 @@
       <h1>{{monument.name}}</h1>
     </div>
     <div id="Navigation">
-      <a href="/{{base_monument.id}}">{{base_monument.name}}</a>
-      {% for m in breadcrumbs %} &rsaquo; <a href="/{{base_monument.id}}">{{m.name}}</a>{% endfor %}
+      <a href="{{ROOT_PATH}}{{base_monument.id}}">{{base_monument.name}}</a>
+      {% for m in breadcrumbs %} &rsaquo; <a href="{{ROOT_PATH}}{{base_monument.id}}">{{m.name}}</a>{% endfor %}
     </div>
     <div id="LeftColumn">
       <img src="{{MEDIA_URL}}sources/{{monument.main_source}}" class="main-img"/>
@@ -96,7 +96,7 @@
       <h3 class="region-name">{{r.region.name}}</h3>
       <ul class="region-monuments">
       {% for m in r.monuments %}
-      <li><a href="/{{m.id}}">{{m.name|linebreaksbr}}</a></li>
+      <li><a href="{{ROOT_PATH}}{{m.id}}">{{m.name|linebreaksbr}}</a></li>
       {% endfor %}
       </ul>
       {% endfor %}
@@ -106,7 +106,7 @@
       <h3 class="region-name">Within this location:</h3>
       <ul class="region-monuments">
       {% for m in children %}
-      <li><a href="/{{m.id}}">{{m.name}}</a></li>
+      <li><a href="{{ROOT_PATH}}{{m.id}}">{{m.name}}</a></li>
       {% endfor %}
       </ul>
 

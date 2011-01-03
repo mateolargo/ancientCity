@@ -21,7 +21,7 @@ class Region(models.Model):
         ordering = ['order_index']
 
     name = models.CharField(max_length=100)
-    encompassing_monument = models.ForeignKey(Monument, related_name='regions',  null=False, blank=False)
+    encompassing_monument = models.ForeignKey(Monument, related_name='regions',  null=True, blank=True)
     order_index = models.IntegerField(unique=True, null=False, blank=False)
 
 class Source(models.Model):

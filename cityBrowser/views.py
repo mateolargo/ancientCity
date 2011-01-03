@@ -2,6 +2,7 @@ from django.shortcuts import render_to_response
 from django.http import HttpResponseRedirect, HttpResponse, HttpResponseNotFound
 from django.template import RequestContext
 from ancientCity.cityBrowser.models import Monument, Region, Source
+from django.conf import settings
 
 def index(request):
     return HttpResponse("Hello, World!")
@@ -60,6 +61,7 @@ def render_monument(request, monument):
         'text_source_count': len(text_sources)+len(link_sources),
         'text_sources': text_sources,
         'link_sources': link_sources,
+        'ROOT_PATH': settings.ROOT_PATH,
     }
 
     response = render_to_response('monument.html', templatevars, context_instance=RequestContext(request))
