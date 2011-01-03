@@ -5,7 +5,9 @@ from ancientCity.cityBrowser.models import Monument, Region, Source
 from django.conf import settings
 
 def index(request):
-    return HttpResponse("Hello, World!")
+    templatevars = {'ROOT_PATH': settings.ROOT_PATH,}
+    response = render_to_response('index.html', templatevars, context_instance=RequestContext(request))    
+    return response
 
 def rome(request):
     #try:

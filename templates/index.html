@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+  <title>{{monument.name}}</title>
+  <link rel="stylesheet" type="text/css" href="{{MEDIA_URL}}reset-min.css">
+  <style type="text/css">
+    html { height:100%; }
+    body { color: #333333; font-family:verdana,sans-serif; padding-top:10px; }
+    #Wrapper { text-align:center; margin:0 auto; padding:70px 0 0; width:950px; background-color:#EEE; }
+    h1 { color:#4060A0; font-size:30px; font-weight:bold; }
+    .box a { color: #4060A0; }
+    .footer a { color: #4060A0; }
+  </style>
+</head>
+<body>
+  <div id="Wrapper">
+    <h1>21h.405j: The Ancient City</h1>
+    <div style="margin-top:40px;">Choose a city to explore.</div>
+    <div class="box" style="border:1px solid #333;font-size:26px;font-weight:bold;margin:10px auto 0;padding:25px 20px;width:500px;">
+      <span><a href="{{ROOT_PATH}}1">Rome</a></span>
+      <span style="margin:0 30px;"><a href="{{ROOT_PATH}}2">Athens</a></span>
+      <span><a href="{{ROOT_PATH}}24">Olynthus</a></span>
+    </div>
+    <div class="footer" style="margin-top:50px;padding-bottom:10px;font-size:14px;">
+      <a href="#">Professor William Broadhead</a> | 
+      <a href="http://mit.edu">Massachusetts Institute of Technology</a>
+    </div>
+  </div>
+</body>
+</html>
